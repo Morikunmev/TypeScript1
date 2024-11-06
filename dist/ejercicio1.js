@@ -61,4 +61,14 @@ console.log(obtenerMensajeDia(DiaSemana.Viernes));
 function obtenerNombreDia(dia) {
     return DiaSemana[dia];
 }
+function sumar(a, b) {
+    return a + b;
+}
+function saludar(nombre) {
+    return `Hola ${nombre}`;
+}
+function procesarUsuario(nombre, edad, activo) {
+    return `Usuario ${nombre}, edad: ${edad}, ${activo ? 'activo' : 'inactivo'}`;
+}
+procesarUsuario("María", 25, true);
 //# sourceMappingURL=ejercicio1.js.map
