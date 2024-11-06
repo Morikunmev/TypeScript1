@@ -8,4 +8,7 @@ console.log(typeof []);
 let extincionDinosaurios = 76000000;
 let dinosaourioFavorito = "T-Rex";
 let extintos = true;
+function chanchitoFeliz(config) {
+    return config;
+}
 //# sourceMappingURL=index.js.map
