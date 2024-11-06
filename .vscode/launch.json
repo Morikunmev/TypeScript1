@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0", // ✓ Versión correcta
+  "configurations": [
+    {
+      "type": "node", // ✓ Correcto para ejecutar Node.js
+      "request": "launch", // ✓ Indica que queremos lanzar un nuevo proceso
+      "name": "Iniciar el programa", // ✓ Nombre descriptivo en español
+      "skipFiles": ["<node_internals>/**"], // ✓ Omite archivos internos de Node
+      "program": "${workspaceFolder}/src/index.ts", // ✓ Ruta al archivo principal
+      "preLaunchTask": "tsc: build - tsconfig.json", // ✓ Compila antes de ejecutar
+      "outFiles": ["${workspaceFolder}/**/*.js"] // ✓ Donde buscar los archivos compilados
+    }
+  ]
+}
