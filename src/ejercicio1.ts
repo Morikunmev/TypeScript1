@@ -73,3 +73,24 @@ console.log(obtenerMensajeDia(DiaSemana.Viernes));
 function obtenerNombreDia(dia: DiaSemana): string {
   return DiaSemana[dia];
 }
+
+function sumar(a: number, b: number): number {
+  return a + b;
+}
+
+function saludar(nombre: string): string {
+  return `Hola ${nombre}`;
+}
+
+function procesarUsuario(
+    nombre: string, 
+    edad: number, 
+    activo: boolean
+): string {
+    return `Usuario ${nombre}, edad: ${edad}, ${activo ? 'activo' : 'inactivo'}`;
+}
+// Llamada:
+procesarUsuario("María", 25, true); // retorna "Usuario María, edad: 25, activo"
+//comprobar el tipo de dato
+
+//Funcon con parametro opcional (?)
