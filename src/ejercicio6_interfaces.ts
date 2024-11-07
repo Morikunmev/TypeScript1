@@ -24,17 +24,17 @@ const carrito: CarritoDeCompras = {
   ],
 };
 
-interface CarritoOps{
-    add: (product: Producto) => void,
-    remove: (productId: number) => void,
-    updateQuantity: (productId: number, quantity: number) => void)
+interface CarritoOps {
+  add: (product: Producto) => void;
+  remove: (productId: number) => void;
+  updateQuantity: (productId: number, quantity: number) => void;
 }
-interface CarritoOps{
-    clear: () => void
+interface CarritoOps {
+  clear: () => void;
 }
-const ops: CarritoOps ={
-    add: (product: Producto) => {},
-    remove: (productId: number) => {},
-    updateQuantity: (productId: number, quantity: number) => {},
-    clear: () => {}
-}
+const ops: CarritoOps = {
+  add: (product: Producto) => {},
+  remove: (productId: number) => {},
+  updateQuantity: (productId: number, quantity: number) => {},
+  clear: () => {},
+};
